@@ -1,0 +1,36 @@
+.opinion {
+  background-color: #f8f9fa;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  .individual {
+    display: flex;
+    justify-content: center;
+
+    .avatar {
+      width: 270px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 25px;
+
+      img {
+        border-radius: 50%;
+        width: 60%;
+        box-shadow: 0 5px 5px grey;
+      }
+
+      h3 {
+        margin: 15px;
+      }
+
+      p {
+        font-weight: 300;
+        text-align: center;
+      }
+    }
+  }
+}

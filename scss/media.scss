@@ -1,0 +1,215 @@
+@media (max-width: 480px) {
+  .top {
+    height: 700px;
+
+    h2 {
+      margin: 22px;
+    }
+    .signup input {
+      width: 280px;
+    }
+
+    .signup button {
+      width: 300px;
+    }
+  }
+
+  .middle {
+    flex-direction: column;
+    justify-content: center;
+    height: 900px;
+
+    .points {
+      width: 100%;
+      margin: 30px;
+      p {
+        margin: 0 50px;
+      }
+    }
+  }
+
+  article .article {
+    flex-wrap: wrap;
+
+    img {
+      width: 100%;
+      object-position: 0% 50%;
+      height: 600px;
+    }
+    h2 {
+      font-size: 2.3em;
+    }
+    p {
+      font-size: 1.4em;
+    }
+  }
+
+  .opinion {
+    height: 1300px;
+
+    h2 {
+      font-size: 2.3em;
+    }
+
+    .individual {
+      flex-wrap: wrap;
+
+      .avatar {
+        width: 80%;
+
+        img {
+          width: 70%;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    height: 500px;
+
+    h2 {
+      font-size: 2.3em;
+      margin: 30px;
+    }
+    .signup input {
+      width: 280px;
+    }
+
+    .signup button {
+      width: 300px;
+    }
+  }
+
+  footer {
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+
+    .kaire nav {
+      justify-content: center;
+
+      a {
+        font-size: 1em;
+      }
+    }
+    p {
+      text-align: center;
+    }
+  }
+
+  .desine {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  header {
+    height: 70px;
+    p {
+      font-size: 1.7em;
+    }
+    button {
+      font-size: 1.3em;
+    }
+  }
+
+  .top {
+    height: 750px;
+
+    h2 {
+      font-size: 3.5em;
+      margin: 30px 200px;
+    }
+    .signup input {
+      font-size: 1.5em;
+      width: 550px;
+    }
+
+    .signup button {
+      font-size: 1.5em;
+      width: 150px;
+    }
+  }
+
+  .middle {
+    height: 400px;
+
+    .points {
+      width: 30%;
+      margin: 30px;
+      img {
+        width: 25%;
+      }
+      h2 {
+        font-size: 2em;
+      }
+      p {
+        font-size: 1.4em;
+      }
+    }
+  }
+
+  article .article h2 {
+    font-size: 2.3em;
+  }
+  p {
+    font-size: 1.4em;
+  }
+
+  .opinion {
+    height: 600px;
+    h2 {
+      font-size: 2.3em;
+      margin-bottom: 25px;
+    }
+
+    .individual .avatar {
+      width: 20%;
+      margin: 25px 40px;
+
+      img {
+        width: 80%;
+      }
+      h3 {
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  .bottom {
+    height: 400px;
+
+    h2 {
+      font-size: 2.8em;
+      margin: 30px;
+    }
+    .signup input {
+      font-size: 1.5em;
+      width: 550px;
+    }
+
+    .signup button {
+      font-size: 1.5em;
+      width: 150px;
+    }
+  }
+
+  footer {
+    height: 230px;
+
+    .kaire p {
+      font-size: 1.1em;
+    }
+    .kaire nav a {
+      font-size: 1.2em;
+    }
+
+    .desine {
+      width: 220px;
+
+      img {
+        height: 40px;
+      }
+    }
+  }
+}

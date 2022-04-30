@@ -1,0 +1,54 @@
+.top {
+  display: flex;
+  // lyg ir filtras uzdetas tamsintas ant image ??
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url($jura);
+  background-position: center;
+  height: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 30px 100px;
+  }
+
+  .signup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    input {
+      width: 340px;
+      padding: 10px;
+      border-radius: 4px;
+      border: 0;
+      font-size: 1em;
+      margin: 5px;
+    }
+
+    button {
+      width: 100px;
+      padding: 10px;
+      border-radius: 4px;
+      border: 0;
+      background: #027bfe;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+      margin: 5px;
+
+      &:hover {
+        background: #0060c6;
+      }
+
+      &:active {
+        background: #0055b0;
+      }
+    }
+  }
+}
